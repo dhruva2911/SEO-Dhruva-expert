@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Serene Gated Living | Real Estate</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="logo">Serene<span>Homes</span></div>
+      <nav class="main-nav" id="main-nav">
+        <a href="#home">Home</a>
+        <a href="#apartments">Apartments</a>
+        <a href="#gated-communities">Gated Communities</a>
+        <a href="#contact">Contact Us</a>
+      </nav>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero / Home Section -->
+    <section id="home" class="hero-section">
+      <div class="hero-overlay"></div>
+      <div class="hero-slider">
+        <!-- Note: Replace src values with your own true 4K (3840x2160) images -->
+        <div class="hero-slide active">
+          <img src="https://images.pexels.com/photos/2089698/pexels-photo-2089698.jpeg?auto=compress&cs=tinysrgb&w=3840&h=2160&dpr=1" alt="Spacious living room in a luxury apartment" />
+          <div class="hero-caption">
+            Elegant living rooms bathed in natural light.
+          </div>
+        </div>
+        <div class="hero-slide">
+          <img src="https://images.pexels.com/photos/439391/pexels-photo-439391.jpeg?auto=compress&cs=tinysrgb&w=3840&h=2160&dpr=1" alt="Modern apartment building exterior in a gated community" />
+          <div class="hero-caption">
+            Modern towers within secure gated communities.
+          </div>
+        </div>
+        <div class="hero-slide">
+          <img src="https://images.pexels.com/photos/261102/pexels-photo-261102.jpeg?auto=compress&cs=tinysrgb&w=3840&h=2160&dpr=1" alt="Swimming pool and amenities inside a gated community" />
+          <div class="hero-caption">
+            Resort-style amenities: pools, gyms, and green parks.
+          </div>
+        </div>
+      </div>
+      <div class="hero-content container">
+        <h1>Premium Gated Community Apartments</h1>
+        <p>
+          Discover curated homes that blend privacy, security, and world-class amenities in the heart of the city.
+        </p>
+        <div class="hero-actions">
+          <a href="#apartments" class="btn btn-primary">View Apartments</a>
+          <a href="#contact" class="btn btn-outline">Schedule a Visit</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Apartments Section -->
+    <section id="apartments" class="section section-light">
+      <div class="container">
+        <div class="section-header reveal">
+          <h2>Apartments</h2>
+          <p>
+            Handpicked apartments designed for comfort, style, and modern living inside premium gated communities.
+          </p>
+        </div>
+        <div class="cards-grid">
+          <article class="card reveal">
+            <div class="card-image">
+              <img src="https://images.pexels.com/photos/1571459/pexels-photo-1571459.jpeg?auto=compress&cs=tinysrgb&w=3840&h=2160&dpr=1" alt="Open-plan living and dining area" />
+            </div>
+            <div class="card-body">
+              <h3>Skyline Residences</h3>
+              <p class="card-location">3 BHK • North Tower • City View</p>
+              <p class="card-text">
+                Floor-to-ceiling windows, warm wooden finishes, and seamless living-dining spaces for modern families.
+              </p>
+              <ul class="card-features">
+                <li>2,100 sq.ft</li>
+                <li>Smart home automation</li>
+                <li>Dedicated parking</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="card reveal">
+            <div class="card-image">
+              <img src="https://images.pexels.com/photos/271639/pexels-photo-271639.jpeg?auto=compress&cs=tinysrgb&w=3840&h=2160&dpr=1" alt="Minimalist bedroom interior" />
+            </div>
+            <div class="card-body">
+              <h3>Garden View Suites</h3>
+              <p class="card-location">2 BHK • East Block • Park Facing</p>
+              <p class="card-text">
+                Serene bedrooms overlooking landscaped gardens, with ample storage and premium finishes.
+              </p>
+              <ul class="card-features">
+                <li>1,450 sq.ft</li>
+                <li>Walk-in wardrobe</li>
+                <li>Private balcony</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="card reveal">
+            <div class="card-image">
+              <img src="https://images.pexels.com/photos/2802188/pexels-photo-2802188.jpeg?auto=compress&cs=tinysrgb&w=3840&h=2160&dpr=1" alt="Modern kitchen interior" />
+            </div>
+            <div class="card-body">
+              <h3>Chef’s Corner Residences</h3>
+              <p class="card-location">3 BHK • West Block • Clubhouse Access</p>
+              <p class="card-text">
+                Gourmet kitchens with high-end appliances, generous counter space, and clever storage solutions.
+              </p>
+              <ul class="card-features">
+                <li>Island countertop</li>
+                <li>Built-in appliances</li>
+                <li>Utility balcony</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gated Communities Section -->
+    <section id="gated-communities" class="section section-dark">
+      <div class="container gated-layout">
+        <div class="gated-content reveal">
+          <h2>Gated Communities</h2>
+          <p>
+            Experience a lifestyle built around safety, serenity, and shared spaces. Our gated communities are thoughtfully
+            planned to offer everything you need within walking distance.
+          </p>
+          <div class="gated-features">
+            <div class="feature">
+              <h3>Secure Living</h3>
+              <p>24/7 CCTV surveillance, access-controlled entry, and trained on-site security teams.</p>
+            </div>
+            <div class="feature">
+              <h3>Resort-Style Amenities</h3>
+              <p>Infinity pools, fully equipped gyms, indoor courts, children’s play zones, and co-working lounges.</p>
+            </div>
+            <div class="feature">
+              <h3>Green & Open Spaces</h3>
+              <p>Jogging tracks, landscaped gardens, pet parks, and quiet corners to relax and unwind.</p>
+            </div>
+            <div class="feature">
+              <h3>Community Living</h3>
+              <p>Clubhouses, event lawns, and shared spaces designed to bring people together.</p>
+            </div>
+          </div>
+        </div>
+        <div class="gated-gallery reveal">
+          <div class="gallery-item large">
+            <img src="https://images.pexels.com/photos/1457841/pexels-photo-1457841.jpeg?auto=compress&cs=tinysrgb&w=3840&h=2160&dpr=1" alt="Gated community pool and lounge area" />
+          </div>
+          <div class="gallery-item">
+            <img src="https://images.pexels.com/photos/207691/pexels-photo-207691.jpeg?auto=compress&cs=tinysrgb&w=3840&h=2160&dpr=1" alt="Modern gym inside gated community" />
+          </div>
+          <div class="gallery-item">
+            <img src="https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?auto=compress&cs=tinysrgb&w=3840&h=2160&dpr=1" alt="Children's park and green area" />
+          </div>
+          <div class="gallery-item">
+            <img src="https://images.pexels.com/photos/186077/pexels-photo-186077.jpeg?auto=compress&cs=tinysrgb&w=3840&h=2160&dpr=1" alt="Entrance security gate of community" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section section-light">
+      <div class="container contact-layout">
+        <div class="contact-info reveal">
+          <h2>Contact Us</h2>
+          <p>
+            Looking for the perfect apartment or want to schedule a site visit? Share your details and our team will connect with you shortly.
+          </p>
+          <ul class="contact-details">
+            <li><strong>Phone:</strong> +91-98765-43210</li>
+            <li><strong>Email:</strong> hello@serenehomes.in</li>
+            <li><strong>Location:</strong> Business Bay, Main City</li>
+          </ul>
+        </div>
+        <div class="contact-form-wrapper reveal">
+          <form class="contact-form" id="contact-form">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your full name" required />
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" placeholder="Your contact number" required />
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="you@example.com" required />
+              </div>
+              <div class="form-group">
+                <label for="interest">Interested In</label>
+                <select id="interest" name="interest">
+                  <option value="3bhk">3 BHK Apartments</option>
+                  <option value="2bhk">2 BHK Apartments</option>
+                  <option value="penthouse">Penthouses</option>
+                  <option value="villa">Villas in Gated Communities</option>
+                  <option value="other">Other</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="4" placeholder="Tell us more about what you’re looking for"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary full-width">Submit Enquiry</button>
+            <p class="form-confirmation" id="form-confirmation" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> SereneHomes. All rights reserved.</p>
+      <p class="footer-note">Crafted for premium gated community living.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
