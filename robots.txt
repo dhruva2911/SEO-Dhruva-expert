@@ -1,0 +1,3 @@
+User-agent:*
+Allow:/
+Sitemap: https://serenegatedliving.netlify.app/sitemap.xml
